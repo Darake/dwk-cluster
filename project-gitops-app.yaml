@@ -4,9 +4,6 @@ metadata:
   name: project-gitops-app
   namespace: flux-system
 spec:
-  targetNamespace: dwk-project
-  install:
-    createNamespace: true
   sourceRef:
     kind: GitRepository
     name: dwk-repo
